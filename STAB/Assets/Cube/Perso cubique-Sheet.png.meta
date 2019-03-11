@@ -14,7 +14,7 @@ TextureImporter:
     21300018: Perso cubique-Sheet_9
     21300020: Perso cubique-Sheet_10
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -32,6 +32,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,7 +44,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -131,7 +133,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -140,7 +142,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be40308faabb349bd99712758fd570b7
+      spriteID: bec9aec3bf51948b5964c0d860931e34
       vertices: []
       indices: 
       edges: []
@@ -149,9 +151,9 @@ TextureImporter:
       name: Perso cubique-Sheet_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 37
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,7 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623aec91b9bab4a6f9a067481357e4f0
+      spriteID: 1466d0841f95845ffb11c10deb6a2c2e
       vertices: []
       indices: 
       edges: []
@@ -169,9 +171,9 @@ TextureImporter:
       name: Perso cubique-Sheet_2
       rect:
         serializedVersion: 2
-        x: 54
+        x: 74
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,7 +182,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3031495ca00c45cebfa96c817636816
+      spriteID: 4695fe9419abb47d69c722a9de4f7df1
       vertices: []
       indices: 
       edges: []
@@ -189,9 +191,9 @@ TextureImporter:
       name: Perso cubique-Sheet_3
       rect:
         serializedVersion: 2
-        x: 81
+        x: 111
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -200,7 +202,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f434cdf236f4f5bb621cc6d7ba130b
+      spriteID: bcce99ff33db44361bbff96c706c1bff
       vertices: []
       indices: 
       edges: []
@@ -209,9 +211,9 @@ TextureImporter:
       name: Perso cubique-Sheet_4
       rect:
         serializedVersion: 2
-        x: 108
+        x: 148
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -220,7 +222,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b2d42b9246043bba61a436bb8f7ff2
+      spriteID: 483597654218f490a9e8ee9278132083
       vertices: []
       indices: 
       edges: []
@@ -229,9 +231,9 @@ TextureImporter:
       name: Perso cubique-Sheet_5
       rect:
         serializedVersion: 2
-        x: 135
+        x: 185
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -240,7 +242,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4f882b39dc24433daffb1c4855c1efd
+      spriteID: b2d61a9430cec48f0879b4eccbf357be
       vertices: []
       indices: 
       edges: []
@@ -249,9 +251,9 @@ TextureImporter:
       name: Perso cubique-Sheet_6
       rect:
         serializedVersion: 2
-        x: 162
+        x: 222
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -260,7 +262,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6470d49ab6004444e8025822075de07c
+      spriteID: 793d3628958354a71a62978b1b58d93c
       vertices: []
       indices: 
       edges: []
@@ -269,9 +271,9 @@ TextureImporter:
       name: Perso cubique-Sheet_7
       rect:
         serializedVersion: 2
-        x: 189
+        x: 259
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,7 +282,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca200f347415144f09c361902ce9550c
+      spriteID: 178c1005ebd744f849da764948907f38
       vertices: []
       indices: 
       edges: []
@@ -289,9 +291,9 @@ TextureImporter:
       name: Perso cubique-Sheet_8
       rect:
         serializedVersion: 2
-        x: 216
+        x: 296
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -300,7 +302,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c437a5fd4c447a3b7c16f1e9d36c3f
+      spriteID: 2c0441ac8fb684d85869c932ba40b2c4
       vertices: []
       indices: 
       edges: []
@@ -309,9 +311,9 @@ TextureImporter:
       name: Perso cubique-Sheet_9
       rect:
         serializedVersion: 2
-        x: 243
+        x: 333
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -320,7 +322,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc62d4d4614fc48c5b72322e3aabf016
+      spriteID: 21f88d62a163143829cb467ead7812aa
       vertices: []
       indices: 
       edges: []
@@ -329,9 +331,9 @@ TextureImporter:
       name: Perso cubique-Sheet_10
       rect:
         serializedVersion: 2
-        x: 270
+        x: 370
         y: 0
-        width: 27
+        width: 37
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -340,7 +342,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e60b275309b32422889f9308b73125dd
+      spriteID: fe641fec4a2404f7798d170bb7e16c34
       vertices: []
       indices: 
       edges: []
@@ -354,6 +356,8 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
