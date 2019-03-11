@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovements : MonoBehaviour {
-
+   
+    [Header("Colliders")]
     public BoxCollider2D ground;
+    public BoxCollider2D sideL;
+    public BoxCollider2D sideR;
 
+    [Space]
+
+    [Header("Properties")]
     public float speed = 100f;
 
     private float moveHorizontal;
@@ -43,7 +49,9 @@ public class PlayerMovements : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Collide");
-        if (collision.collider.Equals(ground))
+        if (collision.collider.Equals(ground) 
+            || collision.collider.Equals(sideL) 
+            || collision.collider.Equals(sideR))
         {
             jumpLeft = 2;
             Debug.Log("Ground");
