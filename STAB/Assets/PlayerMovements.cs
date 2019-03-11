@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovements : MonoBehaviour {
-   
-    [Header("Colliders")]
-    public BoxCollider2D ground;
+public class PlayerMovements : MonoBehaviour
+{
+
+    [Header("Colliders")] public BoxCollider2D ground;
     public BoxCollider2D sideL;
     public BoxCollider2D sideR;
 
-    [Space]
-
-    [Header("Properties")]
-    public float speed = 40f;
+    [Space] [Header("Properties")] public float speed = 40f;
     public float jumpSpeed = 10f;
     public float maxVelocityx = 4f;
     public bool rotated = true;
@@ -21,7 +18,6 @@ public class PlayerMovements : MonoBehaviour {
     private float moveVertical;
     private int jumpLeft = 2;
     private bool canJump = false;
-    private SpriteRenderer mySpriteRenderer;
 
     Rigidbody2D rb2d;
 
@@ -30,21 +26,19 @@ public class PlayerMovements : MonoBehaviour {
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update () 
+    void Update()
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
-        mySpriteRenderer = GetComponent<SpriteRenderer>();
         canJump = Input.GetKeyDown("up") || Input.GetKeyDown("space");
         Debug.Log(rb2d.velocity.x);
-	}
+    }
 
     void FixedUpdate()
     {
         Vector2 movement = new Vector2(moveHorizontal, 0);
         rb2d.AddForce(movement * speed);
-        
+
         if (jumpLeft > 0 && canJump)
         {
             Jump();
@@ -58,7 +52,7 @@ public class PlayerMovements : MonoBehaviour {
         {
             rb2d.velocity = new Vector2(-maxVelocityx, rb2d.velocity.y);
         }
-        
+
         Flip();
     }
 
@@ -74,7 +68,7 @@ public class PlayerMovements : MonoBehaviour {
                 transform.localScale = lTemp;
             }
         }
-        
+
         else if (rb2d.velocity.x < 0)
         {
             Vector3 lTemp;
@@ -96,12 +90,13 @@ public class PlayerMovements : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Collide");
-        if (collision.collider.Equals(ground) 
-            || collision.collider.Equals(sideL) 
+        if (collision.collider.Equals(ground)
+            || collision.collider.Equals(sideL)
             || collision.collider.Equals(sideR))
         {
             jumpLeft = 2;
             Debug.Log("Ground");
         }
     }
+
 }
