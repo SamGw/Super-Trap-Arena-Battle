@@ -15,11 +15,13 @@ public class PlayerMovements : MonoBehaviour {
     public float speed = 40f;
     public float jumpSpeed = 10f;
     public float maxVelocityx = 4f;
+    public bool rotated = true;
 
     private float moveHorizontal;
     private float moveVertical;
     private int jumpLeft = 2;
     private bool canJump = false;
+    private SpriteRenderer mySpriteRenderer;
 
     Rigidbody2D rb2d;
 
@@ -33,7 +35,8 @@ public class PlayerMovements : MonoBehaviour {
     {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
-        canJump = Input.GetKeyDown("up");
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
+        canJump = Input.GetKeyDown("up") || Input.GetKeyDown("space");
         Debug.Log(rb2d.velocity.x);
 	}
 
@@ -41,10 +44,10 @@ public class PlayerMovements : MonoBehaviour {
     {
         Vector2 movement = new Vector2(moveHorizontal, 0);
         rb2d.AddForce(movement * speed);
-        if (moveVertical > 0 && jumpLeft > 0 && canJump)
+        
+        if (jumpLeft > 0 && canJump)
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
-            jumpLeft--;
+            Jump();
         }
 
         if (rb2d.velocity.x > maxVelocityx)
@@ -55,6 +58,39 @@ public class PlayerMovements : MonoBehaviour {
         {
             rb2d.velocity = new Vector2(-maxVelocityx, rb2d.velocity.y);
         }
+        
+        Flip();
+    }
+
+    void Flip()
+    {
+        if (rb2d.velocity.x > 0)
+        {
+            Vector3 lTemp;
+            lTemp = transform.localScale;
+            if (lTemp.x <= 0)
+            {
+                lTemp.x *= -1;
+                transform.localScale = lTemp;
+            }
+        }
+        
+        else if (rb2d.velocity.x < 0)
+        {
+            Vector3 lTemp;
+            lTemp = transform.localScale;
+            if (lTemp.x >= 0)
+            {
+                lTemp.x *= -1;
+                transform.localScale = lTemp;
+            }
+        }
+    }
+
+    void Jump()
+    {
+        rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
+        jumpLeft--;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
