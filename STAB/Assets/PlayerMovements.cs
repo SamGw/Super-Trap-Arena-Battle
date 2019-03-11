@@ -12,7 +12,9 @@ public class PlayerMovements : MonoBehaviour {
     [Space]
 
     [Header("Properties")]
-    public float speed = 100f;
+    public float speed = 40f;
+    public float jumpSpeed = 10f;
+    public float maxVelocityx = 4f;
 
     private float moveHorizontal;
     private float moveVertical;
@@ -32,7 +34,7 @@ public class PlayerMovements : MonoBehaviour {
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
         canJump = Input.GetKeyDown("up");
-        
+        Debug.Log(rb2d.velocity.x);
 	}
 
     void FixedUpdate()
@@ -41,8 +43,17 @@ public class PlayerMovements : MonoBehaviour {
         rb2d.AddForce(movement * speed);
         if (moveVertical > 0 && jumpLeft > 0 && canJump)
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, speed / 4);
+            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
             jumpLeft--;
+        }
+
+        if (rb2d.velocity.x > maxVelocityx)
+        {
+            rb2d.velocity = new Vector2(maxVelocityx, rb2d.velocity.y);
+        }
+        else if (rb2d.velocity.x < -maxVelocityx)
+        {
+            rb2d.velocity = new Vector2(-maxVelocityx, rb2d.velocity.y);
         }
     }
 
