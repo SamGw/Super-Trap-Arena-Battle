@@ -8,12 +8,16 @@ public class PlayerMovements : MonoBehaviour
     public float speed = 40f;
     public float jumpSpeed = 10f;
     public float maxVelocityx = 4f;
+    [Range(1,2)]
+    public int player = 1;
 
     private float moveHorizontal;
     private int jumpLeft = 2;
     private bool canJump;
-    private int player;
     private Animator anim;
+
+    private string horizontalKey;
+    private string jumpKey;
 
     Rigidbody2D rb2d;
 
@@ -21,12 +25,13 @@ public class PlayerMovements : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        Bindings();
     }
 
     void Update()
     {
-        moveHorizontal = Input.GetAxisRaw("Horizontal_ad");
-        canJump = Input.GetKeyDown("up") || Input.GetKeyUp("space");
+        moveHorizontal = Input.GetAxisRaw(horizontalKey);
+        canJump = Input.GetKeyDown(jumpKey);
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -50,6 +55,19 @@ public class PlayerMovements : MonoBehaviour
         Flip();
     }
 
+    void Bindings()
+    {
+        if (player == 1)
+        {
+            horizontalKey = "Horizontal_ad";
+            jumpKey = "w";
+        }
+        if (player == 2)
+        {
+            horizontalKey = "Horizontal_lr";
+            jumpKey = "up";
+        }
+    }
 
     void Move()
     {
