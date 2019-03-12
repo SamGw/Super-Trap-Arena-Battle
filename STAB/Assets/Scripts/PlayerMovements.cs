@@ -13,18 +13,30 @@ public class PlayerMovements : MonoBehaviour
     private int jumpLeft = 2;
     private bool canJump;
     private int player;
+    private Animator anim;
 
     Rigidbody2D rb2d;
 
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        moveHorizontal = Input.GetAxisRaw("Horizontal_lr");
-        canJump = Input.GetKeyDown("up");
+        moveHorizontal = Input.GetAxisRaw("Horizontal_ad");
+        canJump = Input.GetKeyDown("up") || Input.GetKeyUp("space");
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            anim.Play("Attack");
+        }
+
+        else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !anim.IsInTransition(0))
+        {
+            anim.Play("Walk");
+        }
     }
 
     void FixedUpdate()
