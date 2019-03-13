@@ -7,17 +7,21 @@ public class PlayerMovements : MonoBehaviour
     [Header("Properties")] 
     public float speed = 40f;
     public float jumpSpeed = 10f;
-    public float maxVelocityx = 4f;
-    [Range(1,2)]
+    [Range(1,3)]
     public int player = 1;
 
+    [Space] [Header("Hit Stun")] 
+    public bool hitStun = false;
+    
     private float moveHorizontal;
     private int jumpLeft = 2;
     private bool canJump;
+    private float maxVelocityx = 4f;
     private Animator anim;
 
     private string horizontalKey;
     private string jumpKey;
+    private KeyCode attacKey;
 
     Rigidbody2D rb2d;
 
@@ -33,15 +37,7 @@ public class PlayerMovements : MonoBehaviour
         moveHorizontal = Input.GetAxisRaw(horizontalKey);
         canJump = Input.GetKeyDown(jumpKey);
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            anim.Play("Attack");
-        }
-
-        else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !anim.IsInTransition(0))
-        {
-            anim.Play("Walk");
-        }
+        SelectAnimation();
     }
 
     void FixedUpdate()
@@ -61,11 +57,33 @@ public class PlayerMovements : MonoBehaviour
         {
             horizontalKey = "Horizontal_ad";
             jumpKey = "w";
+            attacKey = KeyCode.Q;
         }
         if (player == 2)
         {
             horizontalKey = "Horizontal_lr";
             jumpKey = "up";
+            attacKey = KeyCode.M;
+        }
+
+        if (player == 3)
+        {
+            horizontalKey = "Horizontal_gj";
+            jumpKey = "y";
+            attacKey = KeyCode.O;
+        }
+    }
+
+    void SelectAnimation()
+    {
+        if (Input.GetKeyDown(attacKey))
+        {
+            anim.Play("Attack");
+        }
+
+        else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !anim.IsInTransition(0))
+        {
+            anim.Play("Walk");
         }
     }
 
@@ -86,22 +104,24 @@ public class PlayerMovements : MonoBehaviour
 
     void CapVelocity()
     {
-        if (rb2d.velocity.x > maxVelocityx)
+        if (!hitStun)
         {
-            rb2d.velocity = new Vector2(maxVelocityx, rb2d.velocity.y);
-        }
-        else if (rb2d.velocity.x < -maxVelocityx)
-        {
-            rb2d.velocity = new Vector2(-maxVelocityx, rb2d.velocity.y);
+            if (rb2d.velocity.x > maxVelocityx)
+            {
+                rb2d.velocity = new Vector2(maxVelocityx, rb2d.velocity.y);
+            }
+            else if (rb2d.velocity.x < -maxVelocityx)
+            {
+                rb2d.velocity = new Vector2(-maxVelocityx, rb2d.velocity.y);
+            }
         }
     }
 
     void Flip()
     {
-        if (rb2d.velocity.x > 0)
+        if (moveHorizontal > 0)
         {
-            Vector3 lTemp;
-            lTemp = transform.localScale;
+            Vector3 lTemp = transform.localScale;;
             if (lTemp.x <= 0)
             {
                 lTemp.x *= -1;
@@ -109,10 +129,9 @@ public class PlayerMovements : MonoBehaviour
             }
         }
 
-        else if (rb2d.velocity.x < 0)
+        else if (moveHorizontal < 0)
         {
-            Vector3 lTemp;
-            lTemp = transform.localScale;
+            Vector3 lTemp = transform.localScale;;
             if (lTemp.x >= 0)
             {
                 lTemp.x *= -1;
@@ -130,5 +149,5 @@ public class PlayerMovements : MonoBehaviour
             jumpLeft = 2;
         }
     }
-
+    
 }
