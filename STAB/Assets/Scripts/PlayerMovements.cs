@@ -6,7 +6,7 @@ public class PlayerMovements : MonoBehaviour
 {
     [Header("Properties")] 
     public float speed = 40f;
-    public float jumpSpeed = 10f;
+    public float jumpHeight = 10f;
     [Range(1,3)]
     public int player = 1;
 
@@ -15,8 +15,9 @@ public class PlayerMovements : MonoBehaviour
     
     private float moveHorizontal;
     private int jumpLeft = 2;
-    private bool canJump;
+    private bool wantJump;
     private float maxVelocityx = 4f;
+    
     private Animator anim;
 
     private string horizontalKey;
@@ -34,8 +35,7 @@ public class PlayerMovements : MonoBehaviour
 
     void Update()
     {
-        moveHorizontal = Input.GetAxisRaw(horizontalKey);
-        canJump = Input.GetKeyDown(jumpKey);
+        GetEntry();
 
         SelectAnimation();
     }
@@ -74,6 +74,12 @@ public class PlayerMovements : MonoBehaviour
         }
     }
 
+    void GetEntry()
+    {
+        moveHorizontal = Input.GetAxisRaw(horizontalKey);
+        wantJump = Input.GetKeyDown(jumpKey);
+    }
+
     void SelectAnimation()
     {
         if (Input.GetKeyDown(attacKey))
@@ -95,9 +101,9 @@ public class PlayerMovements : MonoBehaviour
     
     void Jump()
     {
-        if (jumpLeft > 0 && canJump)
+        if (jumpLeft > 0 && wantJump)
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
+            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpHeight);
             jumpLeft--;
         }
     }

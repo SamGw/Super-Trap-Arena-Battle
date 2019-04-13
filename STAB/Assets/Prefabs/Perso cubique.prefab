@@ -181,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   jumpSpeed: 12
-  maxVelocityx: 4
   player: 1
+  hitStun: 0
 --- !u!1 &7288130977866509391
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 7787545274975925347}
   m_Layer: 0
   m_Name: Kick
-  m_TagString: Untagged
+  m_TagString: Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

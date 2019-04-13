@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 	public GameObject PersoCubique;
+	public int numberOfPlayers = 3;
 	
     // Start is called before the first frame update
     void Start()
-    {
+    {	
+	    //A faire : liste, objectif : automatiser selon le nb de joueur
+	    
     	GameObject P1 = Instantiate(PersoCubique,new Vector3(-1,0,0),new Quaternion(0f,0f,0f,0f));
         GameObject P2 = Instantiate(PersoCubique, new Vector3(1,0,0),new Quaternion(0f,0f,0f,0f));
 	    GameObject P3 = Instantiate(PersoCubique, new Vector3(0,0,0),new Quaternion(0f,0f,0f,0f));
@@ -25,7 +28,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	    if (Input.GetKeyDown(KeyCode.R))
+	    if (numberOfPlayers <= 1 && Input.GetKeyDown(KeyCode.R))
 	    {
 		    SceneManager.LoadScene("Brawl Scene");
 	    }
