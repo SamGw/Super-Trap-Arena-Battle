@@ -1,3 +1,4 @@
-Base path: /Applications/Unity/Unity.app/Contents
+Base path: /opt/Unity/Editor/Data
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
