@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Side_L
   - Side_R
+  - Colliders
+  - Attack Up
+  - Attack Side
   layers:
   - Default
   - TransparentFX
