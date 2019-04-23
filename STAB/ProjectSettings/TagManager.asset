@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Side_L
+  - Side_R
+  - Colliders
+  - Attack Up
+  - Attack Side
   layers:
   - Default
   - TransparentFX
