@@ -12,6 +12,8 @@ public class PlayerMovements : MonoBehaviour
 
     [Space] [Header("Hit Stun")] 
     public bool hitStun = false;
+
+    public int percent = 0;
     
     private float moveHorizontal;
     private int jumpLeft = 2;

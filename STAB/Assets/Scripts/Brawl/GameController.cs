@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-	    numberOfPlayers = SelectionController.numberOfPlayers;
+	    numberOfPlayers = main.numberOfPlayers;
 	    //Liste pour automatiser l'instanciation selon le nb de joueur
 
 	    for (int i = 0; i < numberOfPlayers; i++)

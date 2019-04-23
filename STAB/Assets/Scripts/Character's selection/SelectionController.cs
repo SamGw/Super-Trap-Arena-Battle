@@ -11,7 +11,7 @@ using UnityEngine.UI;
 
 public class SelectionController : MonoBehaviour
 {
-    public static int numberOfPlayers = 2;
+    public int numberOfPlayers ;
     public static List<int> selectedCharacters;
     
     public TextMeshProUGUI txtPlayer;
@@ -22,6 +22,7 @@ public class SelectionController : MonoBehaviour
     private RectTransform myRectTransform;
     void Start()
     {
+        numberOfPlayers = main.numberOfPlayers;
         txtPlayer.text = "Player 1";
         selectedCharacters = new List<int>();
     }
