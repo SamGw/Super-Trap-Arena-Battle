@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1269dfff2b07647f2a614e854edbafc3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Punch_1: {fileID: 8300000, guid: b914661a3897543cca54763113b18c67, type: 3}
+  - Face_punch_1: {fileID: 8300000, guid: 6e25d6b023daf4aa5885f490b62dc866, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
