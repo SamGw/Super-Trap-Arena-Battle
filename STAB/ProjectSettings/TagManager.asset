@@ -8,6 +8,8 @@ TagManager:
   - Side_L
   - Side_R
   - Attack
+  - Moving_piece
+  - IA
   layers:
   - Default
   - TransparentFX
