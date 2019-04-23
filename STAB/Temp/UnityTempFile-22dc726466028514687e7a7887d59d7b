@@ -185,12 +185,14 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+Assets/Kick.cs
 Assets/Scripts/Brawl/DestroyByBoundary.cs
 Assets/Scripts/Brawl/Eruption.cs
 Assets/Scripts/Brawl/GameController.cs
 Assets/Scripts/Brawl/IA.cs
-Assets/Scripts/Brawl/Kick.cs
+Assets/Scripts/Brawl/percent.cs
 Assets/Scripts/Brawl/PlayerMovements.cs
 "Assets/Scripts/Character's selection/SelectionController.cs"
+Assets/Scripts/main.cs
 "Assets/Scripts/Sounds scripts/SoundAnimation.cs"
 "Assets/Scripts/Sounds scripts/SoundEffects.cs"
