@@ -16,6 +16,10 @@
           <e p="Character's selection" t="Include">
             <e p="SelectionController.cs" t="Include" />
           </e>
+          <e p="Sounds scripts" t="Include">
+            <e p="SoundAnimation.cs" t="Include" />
+            <e p="SoundEffects.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Resources" t="Include">

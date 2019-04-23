@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83412f5-07f5-472b-928e-0653e610de50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.STAB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.STAB/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.STAB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.STAB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/La merde de Baptiste/IA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/La merde de Baptiste/IA.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Perso cubique.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Perso cubique.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Simple human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Simple human.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stage simpliste.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stage simpliste.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tetris Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tetris Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Volcano.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Volcano.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/8ec0f6-7e762595f3a7f4dedb.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/8ec0f6-7e762595f3a7f4dedb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Perso cubique/Perso cubique.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Perso cubique/Perso cubique.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Brawl Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Brawl Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/8ec0f6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/8ec0f6-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/ec483e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/ec483e-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/6d/6dc1c86d9e02744fe99f1276374fb95b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6d/6dc1c86d9e02744fe99f1276374fb95b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/6d/6dc1c86d9e02744fe99f1276374fb95b.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6d/6dc1c86d9e02744fe99f1276374fb95b.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/7e/7e762595f3a7f4dedb99b3192b11a558" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7e/7e762595f3a7f4dedb99b3192b11a558" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/99/999c6355bd2a645a290192bf714f1776" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/99/999c6355bd2a645a290192bf714f1776" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/99/999c6355bd2a645a290192bf714f1776.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/99/999c6355bd2a645a290192bf714f1776.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/a0/a084fdd111dd92b5c999b838210e68a9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a0/a084fdd111dd92b5c999b838210e68a9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/a0/a084fdd111dd92b5c999b838210e68a9.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a0/a084fdd111dd92b5c999b838210e68a9.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/82/820c9b90f143046eeb521677c699ecce" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/82/820c9b90f143046eeb521677c699ecce" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,23 +28,34 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="6" />
+          <entry key="cs" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="6" />
+          <entry key="C#" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="41" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Eruption.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <marker date="1556035637299" expanded="true" signature="6:78" ph="..." />
                 <marker date="1556035637299" expanded="true" signature="117:566" ph="{...}" />
@@ -148,17 +150,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
+            <state relative-caret-position="568">
+              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
               <folding>
-                <marker date="1556035637300" expanded="true" signature="6:104" ph="..." />
-                <marker date="1556035637300" expanded="true" signature="139:1377" ph="{...}" />
-                <marker date="1556035637300" expanded="true" signature="198:1375" ph="{...}" />
-                <marker date="1556035637300" expanded="true" signature="247:1369" ph="{...}" />
-                <marker date="1556035637300" expanded="true" signature="325:492" ph="{...}" />
-                <marker date="1556035637300" expanded="true" signature="509:650" ph="{...}" />
-                <marker date="1556035637300" expanded="true" signature="664:734" ph="/* Ajouter pourcentage ... */" />
-                <marker date="1556035637300" expanded="true" signature="955:1134" ph="{...}" />
-                <marker date="1556035637300" expanded="true" signature="1184:1345" ph="{...}" />
+                <marker date="1556040073805" expanded="false" signature="6:104" ph="..." />
+                <marker date="1556040073805" expanded="true" signature="139:1458" ph="{...}" />
+                <marker date="1556040073805" expanded="true" signature="198:1456" ph="{...}" />
+                <marker date="1556040073805" expanded="true" signature="247:1450" ph="{...}" />
+                <marker date="1556040073805" expanded="true" signature="325:492" ph="{...}" />
+                <marker date="1556040073805" expanded="true" signature="509:650" ph="{...}" />
+                <marker date="1556040073805" expanded="true" signature="664:734" ph="/* Ajouter pourcentage ... */" />
+                <marker date="1556040073805" expanded="true" signature="955:1134" ph="{...}" />
+                <marker date="1556040073805" expanded="true" signature="1184:1345" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundEffects.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <marker date="1556039491502" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556039491502" expanded="true" signature="121:669" ph="{...}" />
+                <marker date="1556039491502" expanded="true" signature="289:326" ph="{...}" />
+                <marker date="1556039491502" expanded="true" signature="360:400" ph="{...}" />
+                <marker date="1556039491502" expanded="true" signature="434:479" ph="{...}" />
+                <marker date="1556039491502" expanded="true" signature="569:652" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundAnimation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <marker date="1556041127614" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556041127614" expanded="true" signature="131:1384" ph="{...}" />
+                <marker date="1556041127614" expanded="true" signature="342:404" ph="{...}" />
+                <marker date="1556041127614" expanded="true" signature="410:1382" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
               </folding>
             </state>
           </provider>
@@ -209,11 +244,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/DestroyByBoundary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/IA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/PlayerMovements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Eruption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundAnimation.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -232,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -251,11 +295,18 @@
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="Brawl" type="1045f7f1:UnityExplorerNode" />
             </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Sounds scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -305,11 +356,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556036437006</updated>
       <workItem from="1556036441556" duration="1899000" />
+      <workItem from="1556039976624" duration="821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1899000" />
+    <option name="totallyTimeSpent" value="2720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,17 +376,9 @@
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -342,11 +386,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,10 +420,31 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eruption.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Eruption.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="495">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1556035637300" expanded="true" signature="6:113" ph="..." />
+            <marker date="1556035637300" expanded="true" signature="158:971" ph="{...}" />
+            <marker date="1556035637300" expanded="true" signature="298:778" ph="{...}" />
+            <marker date="1556035637300" expanded="true" signature="480:772" ph="{...}" />
+            <marker date="1556035637300" expanded="true" signature="836:969" ph="{...}" />
+            <marker date="1556035637300" expanded="true" signature="904:963" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/DestroyByBoundary.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1556035637299" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556035637299" expanded="true" signature="126:490" ph="{...}" />
+            <marker date="1556035637299" expanded="true" signature="256:488" ph="{...}" />
+            <marker date="1556035637299" expanded="true" signature="302:482" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -417,47 +490,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/DestroyByBoundary.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Eruption.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <marker date="1556035637299" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556035637299" expanded="true" signature="126:490" ph="{...}" />
-            <marker date="1556035637299" expanded="true" signature="256:488" ph="{...}" />
-            <marker date="1556035637299" expanded="true" signature="302:482" ph="{...}" />
+            <marker date="1556035637299" expanded="true" signature="6:78" ph="..." />
+            <marker date="1556035637299" expanded="true" signature="117:566" ph="{...}" />
+            <marker date="1556035637299" expanded="true" signature="253:345" ph="{...}" />
+            <marker date="1556035637299" expanded="true" signature="403:564" ph="{...}" />
+            <marker date="1556035637299" expanded="true" signature="506:549" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/SoundEffects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <folding>
-            <marker date="1556035637300" expanded="true" signature="6:104" ph="..." />
-            <marker date="1556035637300" expanded="true" signature="139:1377" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="198:1375" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="247:1369" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="325:492" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="509:650" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="664:734" ph="/* Ajouter pourcentage ... */" />
-            <marker date="1556035637300" expanded="true" signature="955:1134" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="1184:1345" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <marker date="1556035637300" expanded="true" signature="6:113" ph="..." />
-            <marker date="1556035637300" expanded="true" signature="158:971" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="298:778" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="480:772" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="836:969" ph="{...}" />
-            <marker date="1556035637300" expanded="true" signature="904:963" ph="{...}" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -497,16 +547,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Eruption.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundEffects.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <marker date="1556035637299" expanded="true" signature="6:78" ph="..." />
-            <marker date="1556035637299" expanded="true" signature="117:566" ph="{...}" />
-            <marker date="1556035637299" expanded="true" signature="253:345" ph="{...}" />
-            <marker date="1556035637299" expanded="true" signature="403:564" ph="{...}" />
-            <marker date="1556035637299" expanded="true" signature="506:549" ph="{...}" />
+            <marker date="1556039491502" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556039491502" expanded="true" signature="121:669" ph="{...}" />
+            <marker date="1556039491502" expanded="true" signature="289:326" ph="{...}" />
+            <marker date="1556039491502" expanded="true" signature="360:400" ph="{...}" />
+            <marker date="1556039491502" expanded="true" signature="434:479" ph="{...}" />
+            <marker date="1556039491502" expanded="true" signature="569:652" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Brawl/Kick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <marker date="1556040073805" expanded="false" signature="6:104" ph="..." />
+            <marker date="1556040073805" expanded="true" signature="139:1458" ph="{...}" />
+            <marker date="1556040073805" expanded="true" signature="198:1456" ph="{...}" />
+            <marker date="1556040073805" expanded="true" signature="247:1450" ph="{...}" />
+            <marker date="1556040073805" expanded="true" signature="325:492" ph="{...}" />
+            <marker date="1556040073805" expanded="true" signature="509:650" ph="{...}" />
+            <marker date="1556040073805" expanded="true" signature="664:734" ph="/* Ajouter pourcentage ... */" />
+            <marker date="1556040073805" expanded="true" signature="955:1134" ph="{...}" />
+            <marker date="1556040073805" expanded="true" signature="1184:1345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sounds scripts/SoundAnimation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <marker date="1556041127614" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556041127614" expanded="true" signature="131:1384" ph="{...}" />
+            <marker date="1556041127614" expanded="true" signature="342:404" ph="{...}" />
+            <marker date="1556041127614" expanded="true" signature="410:1382" ph="/* OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks ... */" />
           </folding>
         </state>
       </provider>

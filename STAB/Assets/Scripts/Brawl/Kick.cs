@@ -40,7 +40,9 @@ public class Kick : MonoBehaviour
                     knockback = 40;
                     other_rb2d.velocity = new Vector2(other_rb2d.velocity.x, knockback);
                 }
+            //Sounds effects
             
+            SoundEffects.Instance.Make_FaceSound();
 
         }
     }
