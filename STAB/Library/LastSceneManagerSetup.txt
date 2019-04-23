@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Brawl Scene.unity
+- path: Assets/Scenes/Character's selection.unity
   isLoaded: 1
   isActive: 1
