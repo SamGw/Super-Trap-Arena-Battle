@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 780
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -113,10 +113,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 730
-  m_MinSize: {x: 892, y: 498}
+  m_MinSize: {x: 992, y: 498}
   m_MaxSize: {x: 22012, y: 14048}
   vertical: 0
-  controlID: 114
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 115
+  controlID: 138
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 644
     height: 730
-  m_MinSize: {x: 104, y: 224}
+  m_MinSize: {x: 204, y: 324}
   m_MaxSize: {x: 4004, y: 8024}
   vertical: 1
-  controlID: 63
+  controlID: 37
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,14 +238,14 @@ MonoBehaviour:
     y: 0
     width: 644
     height: 328
-  m_MinSize: {x: 104, y: 124}
+  m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 14}
   - {fileID: 18}
-  m_Selected: 2
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
@@ -373,7 +373,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -434,23 +434,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 720d0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: f42e0000
+      m_SelectedIDs: be330000
+      m_LastClickedID: 13246
+      m_ExpandedIDs: be330000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Perso cubique
+        m_OriginalName: Perso cubique
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -6900
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -498,7 +498,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Perso cubique
+    - Assets/Prefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -510,7 +510,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 3e310000
     m_LastClickedID: 12606
-    m_ExpandedIDs: 00000000860900005c0a0000a80b0000422a0000442a0000462a0000482a0000
+    m_ExpandedIDs: 0000000086090000c8090000ec090000320a00005c0a0000be0a00008a0b0000a80b0000420c0000422a0000442a0000462a0000482a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,7 +538,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000086090000c8090000ec090000320a00005c0a0000be0a00008a0b0000a80b0000420c0000422a0000442a0000462a0000482a0000
+    m_ExpandedIDs: ffffffff0000000086090000c8090000d0090000ec090000320a00005c0a0000be0a00008a0b0000a80b0000422a0000442a0000462a0000482a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Perso cubique
@@ -549,7 +549,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      m_UserData: 2754
+      m_UserData: 2692
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.8594546, y: -1.0714961, z: 0.20304002}
+    m_Target: {x: 0.26899835, y: -1.2132577, z: 0.100010514}
     speed: 2
-    m_Value: {x: -2.8594546, y: -1.0714961, z: 0.20304002}
+    m_Value: {x: 0.26899835, y: -1.2132577, z: 0.100010514}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.6946644
+    m_Target: 12.01007
     speed: 2
-    m_Value: 1.6946644
+    m_Value: 12.01007
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 2980
+  m_LastSelectedObjectID: 13246
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
