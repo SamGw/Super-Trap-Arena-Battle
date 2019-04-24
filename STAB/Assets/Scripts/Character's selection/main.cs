@@ -3,7 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class main : MonoBehaviour
 {
-    public static int numberOfPlayers  ;
+    public static int numberOfPlayers;
+    
     public void scene_change()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

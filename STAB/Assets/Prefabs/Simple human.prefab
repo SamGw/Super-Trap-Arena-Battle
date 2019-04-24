@@ -267,7 +267,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7292781780023695646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 820c9b90f143046eeb521677c699ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f67344d210f349049c112a12d8acc24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7760087668142841137
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7826191120278390675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 820c9b90f143046eeb521677c699ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f67344d210f349049c112a12d8acc24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &2849971483020157640
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7924414400211589281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 820c9b90f143046eeb521677c699ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f67344d210f349049c112a12d8acc24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8261336979906038353
@@ -587,6 +587,7 @@ MonoBehaviour:
   jumpHeight: 10
   player: 1
   hitStun: 0
+  percent: 0
 --- !u!95 &1002067714910692073
 Animator:
   serializedVersion: 3

@@ -198,6 +198,7 @@ MonoBehaviour:
   jumpHeight: 10
   player: 1
   hitStun: 0
+  percent: 0
 --- !u!1 &7288130977866509391
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +256,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7288130977866509391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 820c9b90f143046eeb521677c699ecce, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f67344d210f349049c112a12d8acc24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8074165108971360084

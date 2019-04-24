@@ -191,7 +191,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 262908122}
+      - m_Target: {fileID: 262908121}
         m_MethodName: back_scene
         m_Mode: 1
         m_Arguments:
@@ -330,7 +330,6 @@ GameObject:
   m_Component:
   - component: {fileID: 262908120}
   - component: {fileID: 262908121}
-  - component: {fileID: 262908122}
   m_Layer: 5
   m_Name: player controller menu
   m_TagString: Untagged
@@ -373,19 +372,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 262908119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 599dd5cd11425f74e8e69b40e673d3e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &262908122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262908119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d1246a320684129af9907f77ba5254c, type: 3}
+  m_Script: {fileID: 11500000, guid: c3a309860f06346b697abb9574f290c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &387165046
@@ -533,7 +520,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 262908122}
+      - m_Target: {fileID: 262908121}
         m_MethodName: choose_player2
         m_Mode: 1
         m_Arguments:
@@ -741,7 +728,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 262908122}
+      - m_Target: {fileID: 262908121}
         m_MethodName: choose_player1
         m_Mode: 1
         m_Arguments:
@@ -1268,7 +1255,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 262908122}
+      - m_Target: {fileID: 262908121}
         m_MethodName: choose_player4
         m_Mode: 1
         m_Arguments:
@@ -1471,7 +1458,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 262908122}
+      - m_Target: {fileID: 262908121}
         m_MethodName: choose_player3
         m_Mode: 1
         m_Arguments:
