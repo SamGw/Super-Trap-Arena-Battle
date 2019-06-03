@@ -254,6 +254,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Punch_1: {fileID: 8300000, guid: b914661a3897543cca54763113b18c67, type: 3}
   Face_punch_1: {fileID: 8300000, guid: 6e25d6b023daf4aa5885f490b62dc866, type: 3}
+  SH_Nlight: {fileID: 8300000, guid: 2eeb5e42bd729433d871a6cf5b82818e, type: 3}
+  SH_Dlight: {fileID: 8300000, guid: 14da18e3751844e48b3dbb1251e44ba7, type: 3}
+  SH_Nair: {fileID: 8300000, guid: b620a52e9a5934f39ad8001edc57485f, type: 3}
+  SH_Sair: {fileID: 8300000, guid: f463ee922abe64cf7a8cc9b42677a7d0, type: 3}
+  SH_Suicideatk: {fileID: 0}
+  MET_Tombant: {fileID: 8300000, guid: 9c3c1d59b37354315ad5edec6b8819e1, type: 3}
+  MET_Explosion: {fileID: 8300000, guid: ac62dcd77966f45eba9615df385d7d6d, type: 3}
 --- !u!1 &71063569
 GameObject:
   m_ObjectHideFlags: 0
