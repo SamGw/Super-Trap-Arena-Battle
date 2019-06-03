@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_STAB.-544000990.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -19,17 +22,19 @@
           </e>
           <e p="Brawl" t="Include">
             <e p="DestroyByBoundary.cs" t="Include" />
-            <e p="Eruption.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
             <e p="IA.cs" t="Include" />
             <e p="Kick.cs" t="Include" />
-            <e p="percent.cs" t="Include" />
             <e p="PlayerMovements.cs" t="Include" />
+            <e p="percent.cs" t="Include" />
           </e>
           <e p="Character's selection" t="Include">
-            <e p="main.cs" t="Include" />
             <e p="SelectionController.cs" t="Include" />
+            <e p="main.cs" t="Include" />
           </e>
+          <e p="Eruption.cs" t="Include" />
+          <e p="Flash.cs" t="Include" />
+          <e p="Meteor.cs" t="Include" />
           <e p="Sounds scripts" t="Include">
             <e p="SoundAnimation.cs" t="Include" />
             <e p="SoundEffects.cs" t="Include" />
@@ -62,15 +67,12 @@
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="packages" t="ExcludeRecursive" />
       <e p="STAB.sln" t="IncludeFlat" />
       <e p="Temp" t="ExcludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
       </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_STAB.1158087373.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
   </component>
 </project>
