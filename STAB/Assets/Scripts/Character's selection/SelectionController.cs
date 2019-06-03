@@ -31,7 +31,7 @@ public class SelectionController : MonoBehaviour
     {
         if (currentPlayer > numberOfPlayers)
         {
-            SceneManager.LoadScene("Brawl Scene");
+            SceneManager.LoadScene("Tetris Scene");
         }
     }
 
