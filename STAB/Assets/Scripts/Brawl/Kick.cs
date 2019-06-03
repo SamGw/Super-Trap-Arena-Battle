@@ -24,23 +24,22 @@ public class Kick : MonoBehaviour
                 
                 other.GetComponent<PlayerMovements>();
                 other_script.percent += 5;
-                if (other_script.player == 1)
+                switch (other_script.player)
                 {
-                    dmg1 = other_script.percent;
+                    case 1:
+                        dmg1 = other_script.percent;
+                        break;
+                    case 2:
+                        dmg2 = other_script.percent;
+                        break;
+                    case 3:
+                        dmg3 = other_script.percent;
+                        break;
+                    case 4:
+                        dmg4 = other_script.percent;
+                        break;
                 }
-                if (other_script.player == 2)
-                {
-                    dmg2 = other_script.percent;
-                }
-                if (other_script.player == 3)
-                {
-                    dmg3 = other_script.percent;
-                }
-                if (other_script.player == 4)
-                {
-                    dmg4 = other_script.percent;
-                }
-                
+
                 Rigidbody2D other_rb2d = other.GetComponentInParent<Rigidbody2D>();
                 Transform tr = transform.parent.parent;
                 float knockback;

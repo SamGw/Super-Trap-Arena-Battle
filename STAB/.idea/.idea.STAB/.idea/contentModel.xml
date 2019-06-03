@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_STAB.-544000990.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\An Vinh\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\An Vinh\.Rider2018.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\An Vinh\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\An Vinh\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_STAB.195691537.00" t="ExcludeRecursive" />
+    <e p="C:\Users\An Vinh\Desktop\Super-Trap-Arena-Battle\STAB" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Life.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Animations movements" t="Include">
             <e p="Perso cubique" t="Include">
@@ -25,12 +27,13 @@
             <e p="GameController.cs" t="Include" />
             <e p="IA.cs" t="Include" />
             <e p="Kick.cs" t="Include" />
-            <e p="PlayerMovements.cs" t="Include" />
+            <e p="Life.cs" t="Include" />
             <e p="percent.cs" t="Include" />
+            <e p="PlayerMovements.cs" t="Include" />
           </e>
           <e p="Character's selection" t="Include">
-            <e p="SelectionController.cs" t="Include" />
             <e p="main.cs" t="Include" />
+            <e p="SelectionController.cs" t="Include" />
           </e>
           <e p="Eruption.cs" t="Include" />
           <e p="Flash.cs" t="Include" />
@@ -42,9 +45,9 @@
             </e>
             <e p="Simple Human (SH)" t="Include">
               <e p="SH_Dlight.cs" t="Include" />
-              <e p="SH_Nair.cs" t="Include" />
+              <e p="Sh_Nair.cs" t="Include" />
               <e p="SH_Nlight.cs" t="Include" />
-              <e p="SH_Sair.cs" t="Include" />
+              <e p="Sh_Sair.cs" t="Include" />
               <e p="SH_Suicideatk.cs" t="Include" />
             </e>
             <e p="SoundAnimation.cs" t="Include" />
@@ -78,12 +81,12 @@
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
       <e p="STAB.sln" t="IncludeFlat" />
       <e p="Temp" t="ExcludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
       </e>
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

@@ -15,6 +15,7 @@ public class PlayerMovements : MonoBehaviour
     public bool hitStun = false;
 
     public int percent = 0;
+    public int life = 3;
 
     private float moveVertical;
     private float moveHorizontal;
@@ -59,28 +60,26 @@ public class PlayerMovements : MonoBehaviour
 
     void Bindings()
     {
-        if (player == 1)
+        switch (player)
         {
-            horizontalKey = "Horizontal_ad";
-            verticalKey = "Vertical_ws";
-            jumpKey = "w";
-            attacKey = KeyCode.Q;
-
-        }
-        if (player == 2)
-        {
-            horizontalKey = "Horizontal_lr";
-            verticalKey = "Vertical_ud";
-            jumpKey = "up";
-            attacKey = KeyCode.M;
-        }
-
-        if (player == 3)
-        {
-            horizontalKey = "Horizontal_gj";
-            verticalKey = "Vertical_yh";
-            jumpKey = "y";
-            attacKey = KeyCode.O;
+            case 1:
+                horizontalKey = "Horizontal_ad";
+                verticalKey = "Vertical_ws";
+                jumpKey = "w";
+                attacKey = KeyCode.Q;
+                break;
+            case 2:
+                horizontalKey = "Horizontal_lr";
+                verticalKey = "Vertical_ud";
+                jumpKey = "up";
+                attacKey = KeyCode.M;
+                break;
+            case 3:
+                horizontalKey = "Horizontal_gj";
+                verticalKey = "Vertical_yh";
+                jumpKey = "y";
+                attacKey = KeyCode.O;
+                break;
         }
     }
 

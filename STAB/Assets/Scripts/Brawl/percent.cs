@@ -5,10 +5,10 @@ using System;
 
 public class percent : MonoBehaviour
 {     
-    public Text percent_Text1; 
-    public Text percent_Text2;  
-    public Text percent_Text3;
-    public Text percent_Text4;
+    public TextMeshProUGUI percent_Text1; 
+    public TextMeshProUGUI percent_Text2;  
+    public TextMeshProUGUI percent_Text3;
+    public TextMeshProUGUI percent_Text4;
     
     public Color newcolor1;
     public Color newcolor2;
