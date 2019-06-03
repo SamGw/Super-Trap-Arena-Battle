@@ -826,6 +826,7 @@ GameObject:
   - component: {fileID: 1362124730}
   - component: {fileID: 1362124729}
   - component: {fileID: 1362124728}
+  - component: {fileID: 1362124731}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -916,6 +917,26 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1362124731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362124726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4adaacfd8c34aef8a1c9da42a5b1515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  percent_Text1: {fileID: 1033876875}
+  percent_Text2: {fileID: 176310859}
+  percent_Text3: {fileID: 1579007898}
+  percent_Text4: {fileID: 71063570}
+  newcolor1: {r: 0.7169812, g: 0.26717696, b: 0.26717696, a: 0}
+  newcolor2: {r: 0.9811321, g: 0.1064436, b: 0.1064436, a: 0}
+  newcolor3: {r: 1, g: 0.15566039, b: 0.15566039, a: 0}
+  newcolor4: {r: 0.9528302, g: 0.30113026, b: 0.30113026, a: 0}
 --- !u!1 &1579007895
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,54 +1016,3 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
---- !u!1 &1662335810
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1662335812}
-  - component: {fileID: 1662335811}
-  m_Layer: 0
-  m_Name: text control
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1662335811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662335810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4adaacfd8c34aef8a1c9da42a5b1515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  percent_Text1: {fileID: 1033876875}
-  percent_Text2: {fileID: 176310859}
-  percent_Text3: {fileID: 1579007898}
-  percent_Text4: {fileID: 71063570}
-  newcolor1: {r: 0.7169812, g: 0.26717696, b: 0.26717696, a: 0}
-  newcolor2: {r: 0.9811321, g: 0.1064436, b: 0.1064436, a: 0}
-  newcolor3: {r: 1, g: 0.15566039, b: 0.15566039, a: 0}
-  newcolor4: {r: 0.9528302, g: 0.30113026, b: 0.30113026, a: 0}
---- !u!4 &1662335812
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662335810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3924281, y: -0.037709028, z: -0.06768845}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

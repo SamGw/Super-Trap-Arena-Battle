@@ -5,6 +5,18 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Animations movements" t="Include">
+            <e p="Perso cubique" t="Include">
+              <e p="Pc_Nair.cs" t="Include" />
+              <e p="Pc_SairP1.cs" t="Include" />
+              <e p="Pc_SairP2.cs" t="Include" />
+              <e p="Pc_SairP3.cs" t="Include" />
+            </e>
+            <e p="Simple human" t="Include">
+              <e p="Sh_Nair.cs" t="Include" />
+              <e p="Sh_Sair.cs" t="Include" />
+            </e>
+          </e>
           <e p="Brawl" t="Include">
             <e p="DestroyByBoundary.cs" t="Include" />
             <e p="Eruption.cs" t="Include" />

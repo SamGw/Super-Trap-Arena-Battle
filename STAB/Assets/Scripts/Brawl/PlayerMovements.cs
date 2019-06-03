@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Boo.Lang.Runtime.DynamicDispatching;
 using UnityEngine;
 
 public class PlayerMovements : MonoBehaviour
@@ -14,7 +15,8 @@ public class PlayerMovements : MonoBehaviour
     public bool hitStun = false;
 
     public int percent = 0;
-    
+
+    private float moveVertical;
     private float moveHorizontal;
     private int jumpLeft = 2;
     private bool wantJump;
@@ -24,6 +26,7 @@ public class PlayerMovements : MonoBehaviour
     private Animator anim;
 
     private string horizontalKey;
+    private string verticalKey;
     private string jumpKey;
     private KeyCode attacKey;
 
@@ -59,12 +62,15 @@ public class PlayerMovements : MonoBehaviour
         if (player == 1)
         {
             horizontalKey = "Horizontal_ad";
+            verticalKey = "Vertical_ws";
             jumpKey = "w";
             attacKey = KeyCode.Q;
+
         }
         if (player == 2)
         {
             horizontalKey = "Horizontal_lr";
+            verticalKey = "Vertical_ud";
             jumpKey = "up";
             attacKey = KeyCode.M;
         }
@@ -72,6 +78,7 @@ public class PlayerMovements : MonoBehaviour
         if (player == 3)
         {
             horizontalKey = "Horizontal_gj";
+            verticalKey = "Vertical_yh";
             jumpKey = "y";
             attacKey = KeyCode.O;
         }
@@ -80,13 +87,16 @@ public class PlayerMovements : MonoBehaviour
     void GetEntry()
     {
         moveHorizontal = Input.GetAxisRaw(horizontalKey);
+        moveVertical = Input.GetAxisRaw(verticalKey);
         wantJump = Input.GetKeyDown(jumpKey);
         wantAttack = Input.GetKeyDown(attacKey);
+        
     }
 
     void SelectAnimation()
     {
-        anim.SetFloat("hSpeed",Mathf.Abs(moveHorizontal));
+        anim.SetFloat("hInput",Mathf.Abs(moveHorizontal));
+        anim.SetBool("vInput",moveVertical < 0);
         anim.SetBool("attack", wantAttack);
         anim.SetFloat("vSpeed", rb2d.velocity.y);
     }
@@ -121,7 +131,7 @@ public class PlayerMovements : MonoBehaviour
         }
     }
 
-    void Flip()
+    public void Flip()
     {
         if (moveHorizontal > 0)
         {
