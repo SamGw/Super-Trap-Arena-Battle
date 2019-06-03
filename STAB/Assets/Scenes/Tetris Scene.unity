@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Characters: []
-  gameController: {fileID: 0}
+  gameController: {fileID: 1767442990}
 --- !u!61 &735933658
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2143,7 +2143,7 @@ PrefabInstance:
     - target: {fileID: 5327757574034824544, guid: a6d4e5ef9b445789ea1e1aeae0ff1ada,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5327757574034824544, guid: a6d4e5ef9b445789ea1e1aeae0ff1ada,
         type: 3}
@@ -2553,7 +2553,7 @@ PrefabInstance:
     - target: {fileID: 6544053947350878331, guid: 9a8360483814df5729fffb599823dfef,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6544053947350878331, guid: 9a8360483814df5729fffb599823dfef,
         type: 3}
@@ -2659,6 +2659,11 @@ PrefabInstance:
     - target: {fileID: 7334901462185944610, guid: 9c22385afa2b9e2a7b92bb5d0565ab5f,
         type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334901462185944608, guid: 9c22385afa2b9e2a7b92bb5d0565ab5f,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
