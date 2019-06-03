@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\An Vinh\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\An Vinh\.Rider2018.2\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\An Vinh\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\An Vinh\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_STAB.195691537.00" t="ExcludeRecursive" />
-    <e p="C:\Users\An Vinh\Desktop\Super-Trap-Arena-Battle\STAB" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Life.cs" t="Include" />
@@ -18,8 +14,8 @@
               <e p="Pc_SairP3.cs" t="Include" />
             </e>
             <e p="Simple human" t="Include">
-              <e p="Sh_Nair.cs" t="Include" />
-              <e p="Sh_Sair.cs" t="Include" />
+              <e p="SH_Nair.cs" t="Include" />
+              <e p="SH_Sair.cs" t="Include" />
             </e>
           </e>
           <e p="Brawl" t="Include">
@@ -40,14 +36,20 @@
           <e p="Meteor.cs" t="Include" />
           <e p="Sounds scripts" t="Include">
             <e p="Meteor" t="Include">
-              <e p="MET_Explosion.cs" t="Include" />
+              <e p="MET_explosion.cs" t="Include" />
               <e p="MET_Tombant.cs" t="Include" />
+            </e>
+            <e p="Perso Cubique (PC)" t="Include">
+              <e p="PC_Couppied.cs" t="Include" />
+              <e p="PC_Jeté.cs" t="Include" />
+              <e p="PC_Sair.cs" t="Include" />
+              <e p="PC_Splash.cs" t="Include" />
             </e>
             <e p="Simple Human (SH)" t="Include">
               <e p="SH_Dlight.cs" t="Include" />
-              <e p="Sh_Nair.cs" t="Include" />
+              <e p="SH_Nair.cs" t="Include" />
               <e p="SH_Nlight.cs" t="Include" />
-              <e p="Sh_Sair.cs" t="Include" />
+              <e p="SH_Sair.cs" t="Include" />
               <e p="SH_Suicideatk.cs" t="Include" />
             </e>
             <e p="SoundAnimation.cs" t="Include" />
@@ -88,5 +90,8 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_STAB.-1450579115.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
   </component>
 </project>

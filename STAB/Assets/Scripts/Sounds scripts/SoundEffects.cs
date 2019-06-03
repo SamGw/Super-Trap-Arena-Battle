@@ -19,6 +19,11 @@ public class SoundEffects : MonoBehaviour
     public AudioClip MET_Tombant;
     public AudioClip MET_Explosion;
 
+    public AudioClip PC_Splash;
+    public AudioClip PC_Couppied;
+    public AudioClip PC_Jeté;
+    public AudioClip PC_Sair;
+
     void Awake()
     {
         Instance = this;
@@ -67,6 +72,26 @@ public class SoundEffects : MonoBehaviour
     public void Make_METexplosion()
     {
         MakeSound(MET_Explosion);
+    }
+    
+    public void Make_PCSplash()
+    {
+        MakeSound(PC_Splash);
+    }
+    
+    public void Make_PCCouppied()
+    {
+        MakeSound(PC_Couppied);
+    }
+    
+    public void Make_PCJeté()
+    {
+        MakeSound(PC_Jeté);
+    }
+    
+    public void Make_PCSair()
+    {
+        MakeSound(PC_Sair);
     }
 
     

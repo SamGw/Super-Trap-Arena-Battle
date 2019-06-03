@@ -19,6 +19,7 @@ public class Flash : MonoBehaviour
     {
         if (current == max)
         {
+            // son detruit
             Destroy(gameObject);
         }
         Debug.Log(current);

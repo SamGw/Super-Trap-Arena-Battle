@@ -13,6 +13,10 @@ MonoImporter:
   - SH_Suicideatk: {instanceID: 0}
   - MET_Tombant: {fileID: 8300000, guid: 007c6c4daf711450787fbca80a993b2f, type: 3}
   - MET_Explosion: {fileID: 8300000, guid: ac62dcd77966f45eba9615df385d7d6d, type: 3}
+  - PC_Splash: {fileID: 8300000, guid: 35ebb3511d4964bdd9bd1f1266a62fda, type: 3}
+  - PC_Couppied: {fileID: 8300000, guid: b52cad46227cc4bf8892774c1a62779d, type: 3}
+  - "PC_Jet\xE9": {fileID: 8300000, guid: d546a1b235e554831b92af3b8dba4379, type: 3}
+  - PC_Sair: {fileID: 8300000, guid: c77d5a2731c8d4dca9f2f2e2da3c1d93, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
