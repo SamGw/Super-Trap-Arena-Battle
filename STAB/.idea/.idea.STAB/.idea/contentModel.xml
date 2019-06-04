@@ -38,6 +38,13 @@
           <e p="Flash.cs" t="Include" />
           <e p="Meteor.cs" t="Include" />
           <e p="Sounds scripts" t="Include">
+            <e p="Autres" t="Include">
+              <e p="BGSoundScript.cs" t="Include" />
+              <e p="PauseAudio.cs" t="Include" />
+              <e p="SoundAnimation.cs" t="Include" />
+              <e p="SoundEffects.cs" t="Include" />
+              <e p="UnpauseAudio.cs" t="Include" />
+            </e>
             <e p="Meteor" t="Include">
               <e p="MET_explosion.cs" t="Include" />
               <e p="MET_Tombant.cs" t="Include" />
@@ -55,8 +62,6 @@
               <e p="SH_Sair.cs" t="Include" />
               <e p="SH_Suicideatk.cs" t="Include" />
             </e>
-            <e p="SoundAnimation.cs" t="Include" />
-            <e p="SoundEffects.cs" t="Include" />
           </e>
           <e p="Specials" t="Include">
             <e p="BackpackMovements.cs" t="Include" />
@@ -98,7 +103,7 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_STAB.1158087373.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_STAB.-1450579115.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
   </component>
 </project>
