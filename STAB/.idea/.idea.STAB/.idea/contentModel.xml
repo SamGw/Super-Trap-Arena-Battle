@@ -14,9 +14,15 @@
               <e p="Pc_SairP3.cs" t="Include" />
             </e>
             <e p="Simple human" t="Include">
+              <e p="Bp_Explo.cs" t="Include" />
+              <e p="Bp_Explo2.cs" t="Include" />
               <e p="SH_Nair.cs" t="Include" />
               <e p="SH_Sair.cs" t="Include" />
+              <e p="Sh_Slight.cs" t="Include" />
             </e>
+          </e>
+          <e p="Backpack" t="Include">
+            <e p="BackpackMovements.cs" t="Include" />
           </e>
           <e p="Brawl" t="Include">
             <e p="DestroyByBoundary.cs" t="Include" />
