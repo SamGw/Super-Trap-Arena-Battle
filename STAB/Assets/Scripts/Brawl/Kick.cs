@@ -13,6 +13,8 @@ public class Kick : MonoBehaviour
     public static int dmg2 ;
     public static int dmg3 ;
     public static int dmg4 ;
+
+    public float Force = 1f;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Colliders"))
@@ -46,12 +48,12 @@ public class Kick : MonoBehaviour
 
                 if (CompareTag("Attack Side"))
                 {
-                    knockback = tr.localScale.x * other_script.percent;
+                    knockback = tr.localScale.x * other_script.percent * Force;
                     other_rb2d.velocity = new Vector2(knockback, other_rb2d.velocity.y);
                 }
                 else if (CompareTag("Attack Up"))
                 {
-                    knockback = other_script.percent;
+                    knockback = other_script.percent * Force;
                     other_rb2d.velocity = new Vector2(other_rb2d.velocity.x, knockback);
                 }
             }

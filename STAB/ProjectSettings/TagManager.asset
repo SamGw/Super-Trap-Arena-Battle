@@ -10,6 +10,9 @@ TagManager:
   - Colliders
   - Attack Up
   - Attack Side
+  - IA
+  - Attack
+  - Boundary
   layers:
   - Default
   - TransparentFX

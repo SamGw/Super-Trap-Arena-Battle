@@ -21,9 +21,6 @@
               <e p="Sh_Slight.cs" t="Include" />
             </e>
           </e>
-          <e p="Backpack" t="Include">
-            <e p="BackpackMovements.cs" t="Include" />
-          </e>
           <e p="Brawl" t="Include">
             <e p="DestroyByBoundary.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
@@ -60,6 +57,10 @@
             </e>
             <e p="SoundAnimation.cs" t="Include" />
             <e p="SoundEffects.cs" t="Include" />
+          </e>
+          <e p="Specials" t="Include">
+            <e p="BackpackMovements.cs" t="Include" />
+            <e p="ShoeMovements.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

@@ -66,7 +66,6 @@
     <Compile Include="Assets\Scripts\Animations movements\Simple human\Sh_Nair.cs" />
     <Compile Include="Assets\Scripts\Animations movements\Simple human\Sh_Sair.cs" />
     <Compile Include="Assets\Scripts\Animations movements\Simple human\Sh_Slight.cs" />
-    <Compile Include="Assets\Scripts\Backpack\BackpackMovements.cs" />
     <Compile Include="Assets\Scripts\Brawl\DestroyByBoundary.cs" />
     <Compile Include="Assets\Scripts\Brawl\GameController.cs" />
     <Compile Include="Assets\Scripts\Brawl\IA.cs" />
@@ -92,6 +91,8 @@
     <Compile Include="Assets\Scripts\Sounds scripts\Simple Human (SH)\SH_Suicideatk.cs" />
     <Compile Include="Assets\Scripts\Sounds scripts\SoundAnimation.cs" />
     <Compile Include="Assets\Scripts\Sounds scripts\SoundEffects.cs" />
+    <Compile Include="Assets\Scripts\Specials\BackpackMovements.cs" />
+    <Compile Include="Assets\Scripts\Specials\ShoeMovements.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
