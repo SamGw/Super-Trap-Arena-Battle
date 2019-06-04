@@ -29,7 +29,7 @@ public class percent : MonoBehaviour
         {
             float d1 = Kick.dmg1;
             string str = d1.ToString();
-            percent_Text1.text = "player1 \n" + str + "%";          
+            percent_Text1.text = "P1 \n" + str ;          
             if ( d1 <= 70)
             {
                 newcolor1 = new Color(1,1-(d1/70),1-(d1/70),1);
@@ -42,7 +42,7 @@ public class percent : MonoBehaviour
         {
             float d2 = Kick.dmg2;
             string str2 = d2.ToString();
-            percent_Text2.text = "player2 \n" + str2 + "%"; 
+            percent_Text2.text = "P2 \n" + str2 ; 
             if ( d2 <= 70)
             {
                 newcolor2 = new Color(1,1-(d2/70),1-(d2/70),1);
@@ -59,7 +59,7 @@ public class percent : MonoBehaviour
         {           
             float d3 = Kick.dmg3;
             string str3 = d3.ToString();
-            percent_Text3.text = "player3 \n" + str3 + "%"; 
+            percent_Text3.text = "P3 \n" + str3 ; 
             if ( d3 <= 70)
             {
                 newcolor3 = new Color(1,1-(d3/70),1-(d3/70),1);
@@ -76,7 +76,7 @@ public class percent : MonoBehaviour
         {
             float d4 = Kick.dmg4;
             string str4 = d4.ToString();
-            percent_Text4.text = "player4 \n" + str4 + "%"; 
+            percent_Text4.text = "P4 \n" + str4 ; 
             if ( d4 <= 70)
             {
                 newcolor4 = new Color(1,1-(d4/70),1-(d4/70),1);

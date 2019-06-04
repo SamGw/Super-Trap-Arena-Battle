@@ -75,11 +75,18 @@ public class PlayerMovements : MonoBehaviour
                 attacKey = KeyCode.M;
                 break;
             case 3:
-                horizontalKey = "Horizontal_gj";
-                verticalKey = "Vertical_yh";
-                jumpKey = "y";
+                horizontalKey = "Horizontal_hk";
+                verticalKey = "Vertical_uj";
+                jumpKey = "u";
                 attacKey = KeyCode.O;
                 break;
+            case 4:
+                horizontalKey = "Horizontal_cb";
+                verticalKey = "Vertical_fv";
+                jumpKey = "f";
+                attacKey = KeyCode.X;
+                break;
+                
         }
     }
 
